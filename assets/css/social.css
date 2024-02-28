@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.myHeader{
+    display: flex;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+
+}
+.myHeader ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+
+}
+.myHeader ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.myHeader ul li a {
+    text-decoration: none;
+    color: black;
+}

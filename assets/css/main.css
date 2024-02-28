@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 520px;
+}
+.myHeader{
+    display: flex;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+
+}
+.myHeader ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+
+}
+.myHeader ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.myHeader ul li a {
+    text-decoration: none;
+    color: black;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 2px solid gray;
+
+}
+.baslik{
+    display: flex;
+    justify-content: center;
+}
+.kendimAciklama{
+  
+}
+#myPhoto{
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+
+}
+
+.translateBtn{
+    position: absolute;
+    left: 42%;
+
+}
+.tekrarTR{
+    position: absolute;
+    left: 42%;
+}
