@@ -58,7 +58,19 @@ body{
   .photoDiv{
     margin-top: 30px;
   }
+  .translateBtn{
+    padding: 12px 18px;
 
+    border-radius: 10px;
+    border: none;
+
+
+}
+.tekrarTR{
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+}
 
 @media (width <= 768px) {
     *{
@@ -96,24 +108,7 @@ body{
     
     }
     
-    .translateBtn{
-        position: absolute;
-        left: 42%;
-        width: 80px;
-        height: 20px;
-        border-radius: 10px;
-        border: none;
-    
-    
-    }
-    .tekrarTR{
-        position: absolute;
-        left: 42%;
-        width: 80px;
-        height: 20px;
-        border: none;
-        border-radius: 10px;
-    }
+
     .projects{
         display: flex;
         justify-content: center;
