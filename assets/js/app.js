@@ -9,6 +9,7 @@ function ingCevir(){
     I'm trying to improve myself in software.
     I am taking Acun Media Academy extended software expertise course
     I create my own projects and try to improve myself as fast as possible.</p>
+    <br>
     <button class="tekrarTR">Çevir</button>`
         const tekrarCevir = document.querySelector('.tekrarTR');
         tekrar(tekrarCevir);

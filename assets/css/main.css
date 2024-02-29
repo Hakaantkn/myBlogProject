@@ -71,8 +71,23 @@ body{
     height: 20px;
     border: none;
     border-radius: 10px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+}
+.imgler{
+    width: 390px;
+    border-radius: 10px;
+
 
 }
+
 
 @media (width >= 1200px) {
     body{
@@ -94,3 +109,4 @@ body{
 
     }
 }     
+
