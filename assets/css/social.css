@@ -24,3 +24,18 @@
     text-decoration: none;
     color: black;
 }
+#socialHeader{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 50px;
+    border-bottom: 2px solid gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contactDiv{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 110px;
+
+}
