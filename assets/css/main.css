@@ -1,11 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-body{
-    max-width: 520px;
-
-}
 .myHeader{
     display: flex;
     border-bottom: 2px solid gray;
@@ -28,24 +20,6 @@ body{
     text-decoration: none;
     color: black;
 }
-.mainContainer{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
-    border-bottom: 2px solid gray;
-
-}
-.baslik{
-    display: flex;
-    justify-content: center;
-}
-.kendimAciklama{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 #myPhoto{
     width: 150px;
     height: 150px;
@@ -53,60 +27,113 @@ body{
     object-fit: cover;
 
 }
-
-.translateBtn{
-    position: absolute;
-    left: 42%;
-    width: 80px;
-    height: 20px;
-    border-radius: 10px;
-    border: none;
-
-
-}
-.tekrarTR{
-    position: absolute;
-    left: 42%;
-    width: 80px;
-    height: 20px;
-    border: none;
-    border-radius: 10px;
-}
-.projects{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-    padding: 10px;
-    border-bottom: 2px solid gray;
-}
 .imgler{
     width: 390px;
     border-radius: 10px;
-
-
 }
+body{
+    display: flex;
+
+    justify-content: center;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.kendimAciklama{
+
+    justify-content: center;
+    align-items: center;
+  }
+  .hakkimdaKismi{
+    text-align: center;
+    max-width: 400px;
+
+  }
+  .projects{
+    text-align: center;
+  }
+  .photoDiv{
+    margin-top: 30px;
+  }
 
 
-@media (width >= 1200px) {
+@media (width <= 768px) {
+    *{
+        padding: 0;
+        margin: 0;
+    }
     body{
-        display: flex;
-        height: 100vh;
-
-
-
+        max-width: 520px;
+    
     }
-    .myHeader{
-        display: flex;
-        justify-content: center;
-        border-bottom: 2px solid gray;
-        height: 30px;
 
-    }
     .mainContainer{
         display: flex;
-
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        border-bottom: 2px solid gray;
+    
     }
+    .baslik{
+        display: flex;
+        justify-content: center;
+    }
+    .kendimAciklama{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #myPhoto{
+        width: 150px;
+        height: 150px;
+        border-radius: 500px;
+        object-fit: cover;
+    
+    }
+    
+    .translateBtn{
+        position: absolute;
+        left: 42%;
+        width: 80px;
+        height: 20px;
+        border-radius: 10px;
+        border: none;
+    
+    
+    }
+    .tekrarTR{
+        position: absolute;
+        left: 42%;
+        width: 80px;
+        height: 20px;
+        border: none;
+        border-radius: 10px;
+    }
+    .projects{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding-bottom: 5px;
+        border-bottom: 2px solid gray;
+    }
+    .imgler{
+        width: 390px;
+        height: 215px;
+        border-radius: 10px;
+    }
+    #projectsHeader{
+        border-bottom: 2px solid gray;
+        margin: 10px;
+    }
+    
+    
+
 }     
 
