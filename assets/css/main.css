@@ -4,6 +4,7 @@
 }
 body{
     max-width: 520px;
+    background-color: #333;
 }
 .myHeader{
     display: flex;
@@ -41,7 +42,9 @@ body{
     justify-content: center;
 }
 .kendimAciklama{
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #myPhoto{
     width: 150px;
@@ -54,9 +57,35 @@ body{
 .translateBtn{
     position: absolute;
     left: 42%;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+
 
 }
 .tekrarTR{
     position: absolute;
     left: 42%;
+}
+
+@media (width >= 1200px) {
+    body{
+        display: flex;
+        height: 100vh;
+
+
+
+    }
+    .myHeader{
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid gray;
+        height: 30px;
+
+    }
+    .mainContainer{
+        display: flex;
+
+    }
 }
