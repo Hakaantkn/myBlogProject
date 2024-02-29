@@ -4,7 +4,7 @@
 }
 body{
     max-width: 520px;
-    background-color: #333;
+
 }
 .myHeader{
     display: flex;
@@ -67,6 +67,11 @@ body{
 .tekrarTR{
     position: absolute;
     left: 42%;
+    width: 80px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+
 }
 
 @media (width >= 1200px) {
@@ -88,4 +93,4 @@ body{
         display: flex;
 
     }
-}
+}     
