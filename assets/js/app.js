@@ -25,7 +25,5 @@ function tekrar(tekrarCevir){
         kendi projelerimi oluşturuyorum kendimi geliştirmeye çalışıyorum.</p><button class="translateBtn" onclick="ingCevir()">translate</button>`
 
     });
-
-
 }
 
