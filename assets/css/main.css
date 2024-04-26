@@ -54,6 +54,7 @@ body{
   }
   .projects{
     text-align: center;
+    align-items: center;
   }
   .photoDiv{
     margin-top: 30px;
